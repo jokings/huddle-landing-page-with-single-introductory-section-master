@@ -114,7 +114,6 @@ footer {
     body {
         background-image: url(./images/bg-mobile.svg);
         background-repeat: no-repeat;
-        text-align: center;
     }
 
     main {
@@ -122,8 +121,7 @@ footer {
     }
 
     header {
-        margin-bottom: 50px;
-        text-align: left;
+        margin-bottom: 50px; 
     }
 
     header img {
@@ -150,16 +148,15 @@ footer {
     .content {
         grid-area: b;
         width: 100%;
+        text-align: center;
     }
     
     h1 {
         font-size: 1.5em;
-        text-align: center;
     }
     
     p {
         font-size: 0.97em;
-        text-align: center;
         margin-top: 10px;
     }
     
